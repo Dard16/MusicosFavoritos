@@ -4,43 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Músicos Favoritos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .musicos-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .musico {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        .musico img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .musico p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        footer {
+            margin-top: 30px;
+            color: #555;
+            font-size: 12px;
+        }
+    </style>
 </head>
 <body>
     <h1>Músicos Favoritos</h1>
 
-    <div class="Adele">
-        <h2>Nombre del Músico 1</h2>
-        <img src="imagen1.jpg" alt="Músico 1">
-        <p>Con su poderosa voz y emotivas baladas, Adele se ha consolidado como una de las</p>
-        <p>Álbum más representativo: Nombre del álbum</p>
+    <div class="musicos-container">
+        <div class="musico">
+            <h2>Freddie Mercury</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Freddie_Mercury_1977.jpg" alt="Freddie Mercury">
+            <p>Freddie Mercury fue el icónico líder de Queen, conocido por su poderosa voz y carisma en el escenario.</p>
+            <p><strong>Álbum más representativo:</strong> A Night at the Opera</p>
+        </div>
+
+        <div class="musico">
+            <h2>Michael Jackson</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Michael_Jackson_in_1988.jpg" alt="Michael Jackson">
+            <p>Michael Jackson, el "Rey del Pop", revolucionó la música con su estilo y performances inolvidables.</p>
+            <p><strong>Álbum más representativo:</strong> Thriller</p>
+        </div>
+
+        <div class="musico">
+            <h2>The Beatles</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/The_Fabs.JPG" alt="The Beatles">
+            <p>La banda británica que transformó la música popular y dejó un legado imborrable en la historia.</p>
+            <p><strong>Álbum más representativo:</strong> Abbey Road</p>
+        </div>
+
+        <div class="musico">
+            <h2>Adele</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Adele_2016.jpg" alt="Adele">
+            <p>Con su poderosa voz y emotivas baladas, Adele se ha consolidado como una de las artistas más influyentes.</p>
+            <p><strong>Álbum más representativo:</strong> 21</p>
+        </div>
+
+        <div class="musico">
+            <h2>Coldplay</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Coldplay_Viva_la_Vida_Tour.jpg" alt="Coldplay">
+            <p>La banda británica que ha conquistado al mundo con su estilo alternativo y emotivas melodías.</p>
+            <p><strong>Álbum más representativo:</strong> A Rush of Blood to the Head</p>
+        </div>
     </div>
 
-    <div class="Freddie Mercury">
-        <h2>Nombre del Músico 2</h2>
-        <img src="imagen2.jpg" alt="Músico 2">
-        <p>Mercury fue el icónico líder de Queen, conocido por su poderosa voz y carisma en el</p>
-        <p>Álbum más representativo: Nombre del álbum</p>
-    </div>
-    <div class="The Beatles">
-        <h2>Nombre del Músico 2</h2>
-        <img src="imagen2.jpg" alt="Músico 2">
-        <p>Mercury fue el icónico líder de Queen, conocido por su poderosa voz y carisma en el</p>
-        <p>Álbum más representativo: Nombre del álbum</p>
-    </div>
-    <div class="Freddie Mercury">
-        <h2>Nombre del Músico 2</h2>
-        <img src="imagen2.jpg" alt="Músico 2">
-        <p>Mercury fue el icónico líder de Queen, conocido por su poderosa voz y carisma en el</p>
-        <p>Álbum más representativo: Nombre del álbum</p>
-    </div>
-    <div class="Guns N Roses">
-        <h2>Nombre del Músico 2</h2>
-        <img src="imagen2.jpg" alt="Músico 2">
-        <p>Mercury fue el icónico líder de Queen, conocido por su poderosa voz y carisma en el</p>
-        <p>Álbum más representativo: Nombre del álbum</p>
-    </div>
-
-
-
+    <footer>
+        <p>© 2025 - Página creada para el ejercicio de Git y Netlify</p>
+    </footer>
 </body>
 </html>
